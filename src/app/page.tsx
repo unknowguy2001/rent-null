@@ -1,3 +1,9 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
-  return (<div>Welcome to RentNull!</div>);
+  return (
+    <div>
+      <Button variant="outline">Click me</Button>
+    </div>
+  );
 }
